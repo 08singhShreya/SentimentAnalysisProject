@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+.env
+
+# trained models are build output, not source code
+models/*.joblib
