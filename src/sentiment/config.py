@@ -11,7 +11,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 class Config:
     """Read-only settings (frozen, so nothing can edit them mid-run)."""
 
-    dataset_name: str = "amazon_polarity"
+    dataset_name: str = "fancyzhx/amazon_polarity"
     sample_size: int = 10_000   #laptop constraint
     test_size: float = 0.2      
     random_state: int = 42      # same split every run, results are repeatable
